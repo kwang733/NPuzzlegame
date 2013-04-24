@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="select">Select an Image!</string>
+    <string name="app_name">ImagePuzzle</string>
+    <string name="menu_easy">Easy</string>
+    <string name="menu_medium">Medium</string>
+    <string name="menu_hard">Hard</string>
+    <string name="menu_shuffle">Shuffle</string>
+    <string name="menu_quit">Pick Another</string>
+    <string name="won">Congratulations, you win!</string>
+    <string name="win_button_text">Go me!</string>
+    
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff000000" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+    
+    <ImageView
+        android:id="@+id/won_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside" 
+        android:contentDescription="puzzle_image"/>
+    
+    <TextView
+        android:id="@+id/won_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/won_image"
+        android:background="#ccaadddd"
+        android:gravity="center"
+        android:padding="3.0dip"
+        android:text="@string/won"
+        android:textColor="#ff000000"
+        android:textSize="9.0pt" />
+    
+    <TextView
+        android:id="@+id/moves"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/won_text"
+        android:background="#ccaadddd"
+        android:gravity="center"
+        android:padding="3.0dip"
+        android:text="You did it in n moves."
+        android:textColor="#ff000000" />
+    
+    <Button
+        android:id="@+id/cool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/won_image"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:minWidth="75.0dip"
+        android:padding="20.0dip"
+        android:text="@string/win_button_text" />
+    
+</RelativeLayout>

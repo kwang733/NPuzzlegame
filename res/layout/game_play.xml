@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/puzzleLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ccaadddd"
+        android:textColor="#ff000000"
+        android:textSize="18.0pt"
+        android:layout_centerInParent="true" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

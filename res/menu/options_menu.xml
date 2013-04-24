@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_rotate" android:id="@+id/menu_shuffle" android:title="@string/menu_shuffle" />
+    <item android:icon="@drawable/ic_menu_delete" android:id="@+id/menu_quit" android:title="@string/menu_quit" />
+    <item android:icon="@drawable/ic_launcher" android:id="@+id/menu_easy" android:title="@string/menu_easy" />
+    <item android:icon="@drawable/ic_launcher" android:id="@+id/menu_medium" android:title="@string/menu_medium" />
+    <item android:icon="@drawable/ic_launcher" android:id="@+id/menu_hard" android:title="@string/menu_hard" />
+</menu>
